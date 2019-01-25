@@ -58,7 +58,11 @@ class Song
     self.all << song 
     song 
   end   
-    
+  # Same code as above with one line added, self.all << song, which adds the new song to the @@all array 
+  
+  def self.destroy_all
+    @@all.clear 
+  end 
     
 end
 
