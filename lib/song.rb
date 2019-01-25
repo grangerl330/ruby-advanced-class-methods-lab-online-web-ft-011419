@@ -52,7 +52,12 @@ class Song
     song 
   end 
   # Use filename.split with a regex argument. /[-.]/ tells .split to split whenever it sees a dash or a period. This returns an array of 3 strings, the artist, the song name, and .mp3. It sets song.name equal to the [1] index of the array which is the song name and calls .strip on it to remove any whitespaces at the front or the end. It does the same for song.artist_name using the [0] index. Then it adds the new son instance saved in song to self.all, which is @@all.
-  def create_from_filename
+  
+  def create_from_filename(filename)
+    
+  end   
+    
+    
 end
 
 
