@@ -51,7 +51,7 @@ require 'pry'
     self.all << song 
     song 
   end 
-  # Use filename.split with a regex argument. /[-.]/ tells .split to split whenever it sees a dash or a period. This returns an array of 3 strings, the artist, the song name, and .mp3. For song.name, we find the [1] index of the array which is the song name and call .strip on it to remove any whitespaces on at the front or the end. 
+  # Use filename.split with a regex argument. /[-.]/ tells .split to split whenever it sees a dash or a period. This returns an array of 3 strings, the artist, the song name, and .mp3. It sets song.name equal to the [1] index of the array which is the song name and calls .strip on it to remove any whitespaces at the front or the end. It does the same for song.artist_name using the [0] index 
 end
 
 
